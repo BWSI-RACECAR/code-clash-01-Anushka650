@@ -28,7 +28,7 @@ Input: “dad”        Output: False
 class Solution:
     # Write code below to complete prompt
     def isPalindrome(self, s):
-        if s.length < 0:
+        if s.len() < 0:
             return False
         reversed_word = 0
         temp = s
